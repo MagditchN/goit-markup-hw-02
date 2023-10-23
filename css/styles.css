@@ -1,0 +1,156 @@
+/* ============== /COMMON STYLES ============== */
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+/* ============== HEADER STYLES ============== */
+.logotype {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.logotype-span {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: -0, 03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.menu-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.menu-link:hover,
+.nenu-link:focus {
+  color: #404bbf;
+}
+.address-link {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+/* ============== HERO IMAGE STYLES ============== */
+.main {
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  background: #2e2f42;
+}
+.main-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+.button-order {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.button-order:hover,
+.button-order:focus {
+  background: #404bbf;
+}
+/* ============== BENEFITS STYLES ============== */
+
+.benefits-list-title {
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.benefits-list-text {
+  /* Body */
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* ============== OUR TEAM STYLES ============== */
+.our-team {
+  width: 1440px;
+  flex-shrink: 0;
+  background: #f4f4fd;
+}
+.our-team-list-title {
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1, 2; /* 120% */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.our-team-list-text {
+  /* Body */
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* ============== PAGE FOOTER STYLES ============== */
+.page-footer {
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
+  background: #2e2f42;
+}
+.page-footer-text {
+  /* Body */
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.logotype-footer-web-span {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logotype-footer-studio-span {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
